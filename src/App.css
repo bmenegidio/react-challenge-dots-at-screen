@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .buttons-container {
+    display: flex;
+    gap: 7px;
+  }
+
+  .container-click {
+    flex: 1;
+
+    .circle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgb(231, 175, 184);
+    }
+  }
+}
